@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.numbers-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+h2{
+    min-width: 150px;
+    text-align: end;
+}
+
+.numbers-item {
+    background-color: aquamarine;
+    min-width: 75px;
+    height: 75px;
+    color: white;
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+}
